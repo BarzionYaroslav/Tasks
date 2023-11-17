@@ -1,6 +1,7 @@
 import telebot
 
-BOT_TOKEN = "6419650660:AAHs1XL7LS3eebu98lYEM9Lq_o36W4SD268"
+BOT_TOKEN = input("Write Bot_Token:")
+print("Now go to bot or whatever")
 
 bot = telebot.TeleBot(BOT_TOKEN)
 @bot.message_handler(func=lambda msg: True)
